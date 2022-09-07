@@ -36,7 +36,7 @@ naver = sync.Webtoon()
 data = naver.get_list() #요일웹툰 리스트를 가져옵니다. 파라미터가 비어있을시 오늘차 요일 리스트를 반환합니다.
 print(data)
 ```
-## Request sample
+## Response sample
 ```
 [
   {
@@ -69,7 +69,7 @@ naver = sync.Webtoon()
 data = naver.get_info(758037) #요일웹툰 리스트를 가져옵니다. 파라미터가 비어있을시 오늘차 요일 리스트를 반환합니다.
 print(data)
 ```
-## Request sample
+## Response sample
 ```
 {
   'title': '참교육', 
